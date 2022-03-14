@@ -6,7 +6,7 @@ A Hapi chat service written in typescript.
 
 * **Modular** code.
 * **ESLint** support.
-* **Tests** example included.
+* **Tests** included.
 
 ## Main Technologies
 
