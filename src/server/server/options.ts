@@ -5,6 +5,12 @@ import config from '../config/config';
 import Dictionary = Util.Dictionary;
 import { handleValidationError, } from '../utils';
 
+/**
+ * Server options object.
+ *
+ * @remarks
+ * Specifying options for the server.
+ */
 export const options: ServerOptions = {
     port: config.server.port,
     host: config.server.host,
