@@ -1,3 +1,6 @@
+import {Boom} from "@hapi/boom";
+import {ERRORS} from "../errors/codes";
+
 /**
  * Error function.
  *
@@ -10,9 +13,6 @@
  *
  * @returns Boom
  */
-import {Boom} from "@hapi/boom";
-import {ERRORS} from "../errors/codes";
-
 export function error(code: number, msg: string, data: object): Boom {
     return new Boom(msg, {
         data: {
