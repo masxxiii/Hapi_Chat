@@ -7,6 +7,13 @@ export const subscriptions = {
 
 type WebsocketOptions = Record<string, any>;
 
+/**
+ * Websocket plugin.
+ *
+ * @remarks
+ * Custom websocket plugin that subscribes to specific paths
+ * and uses server methods to publish data.
+ */
 export const Websocket: Plugin<WebsocketOptions> = {
     name: 'websocket',
     register: async (server: Server, options: WebsocketOptions) => {
@@ -24,3 +31,4 @@ export const Websocket: Plugin<WebsocketOptions> = {
             server.publish(path, data);
         });
     },
+};
