@@ -1,5 +1,5 @@
-import {Boom} from "@hapi/boom";
-import {ERRORS} from "../errors/codes";
+import { Boom, } from '@hapi/boom';
+import { ERRORS, } from '../errors/codes';
 
 /**
  * Error function.
