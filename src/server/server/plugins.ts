@@ -7,7 +7,12 @@ import * as HapiBearer from 'hapi-auth-bearer-token';
 import SwaggerOptions from '../config/swagger';
 import { pinoConfig, } from '../config/pino';
 
-
+/**
+ * Server plugins object.
+ *
+ * @remarks
+ * Specifying plugins for the server.
+ */
 export const plugins: Array<ServerRegisterPluginObject<any>> = [
     {
         plugin: Inert,
