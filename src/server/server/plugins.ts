@@ -6,6 +6,7 @@ import { ServerRegisterPluginObject, } from '@hapi/hapi';
 import * as HapiBearer from 'hapi-auth-bearer-token';
 import SwaggerOptions from '../config/swagger';
 import { pinoConfig, } from '../config/pino';
+import { Websocket, } from './websocket';
 
 /**
  * Server plugins object.
