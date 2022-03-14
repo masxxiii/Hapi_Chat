@@ -12,5 +12,15 @@ export const options: ServerOptions = {
     query: {
         parser: (query: Dictionary<string>) => Qs.parse(query),
     },
-
+    routes: {
+        validate: {
+            options: {
+                abortEarly: false,
+            },
+            failAction: handleValidationError,
+        },
+        response: {
+            failAction: 'log',
+        },
+    },
 };
