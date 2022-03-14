@@ -1,0 +1,19 @@
+# You can tell ESLint to ignore specific files and directories here.
+
+# Macos
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# JetBrains
+.idea
+
+# Build directory
+build
+
+# Dependencies
+node_modules
+
+# Environment variables
+.env
