@@ -9,5 +9,26 @@ import { pinoConfig, } from '../config/pino';
 
 
 export const plugins: Array<ServerRegisterPluginObject<any>> = [
-
+    {
+        plugin: Inert,
+    },
+    {
+        plugin: HapiBearer,
+    },
+    {
+        plugin: Vision,
+    },
+    {
+        plugin: HapiSwagger,
+        options: SwaggerOptions,
+    },
+    {
+        plugin: Pino,
+        options: pinoConfig(),
+    },
+    {
+        plugin: Websocket,
+        options: {},
+        routes: { prefix: '/ws', },
+    }
 ];
