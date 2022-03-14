@@ -7,5 +7,7 @@ import { handleValidationError, } from '../utils';
 
 
 export const options: ServerOptions = {
+    port: config.server.port,
+    host: config.server.host,
 
 };
