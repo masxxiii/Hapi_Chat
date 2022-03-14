@@ -1,0 +1,19 @@
+{
+  "name": "hapi_chat",
+  "version": "1.0.0",
+  "description": "A chat service built in Hapi.",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masxxiii/Hapi_Chat.git"
+  },
+  "author": "Masood Zafar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masxxiii/Hapi_Chat/issues"
+  },
+  "homepage": "https://github.com/masxxiii/Hapi_Chat#readme"
+}
