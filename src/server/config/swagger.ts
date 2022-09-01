@@ -8,7 +8,7 @@ export default {
     info: {
         title: `${config.app.name} API Documentation`,
         version: process.env.npm_package_version,
-        description: 'Endpoints of the API.\n\n'
+        description: 'Endpoints of the Chat Service.\n\n'
             + 'To view <b>swagger.json</b>, [click here](/api/documentation.json).',
     },
     jsonPath: '/documentation.json',
